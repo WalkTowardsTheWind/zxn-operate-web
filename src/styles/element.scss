@@ -1,0 +1,132 @@
+.el-input {
+  .el-input__wrapper {
+    box-shadow: 0 0 0 1px #e5e5e5 inset;
+
+    input {
+      font-size: 14px;
+      color: #333;
+    }
+  }
+}
+
+.el-button {
+  height: 36px;
+  line-height: 36px;
+  border-radius: 4px;
+
+  &.el-button--primary {
+    color: #fff;
+    background-color: #366ff3;
+    border: 1px solid #366ff3;
+  }
+
+  &.el-button--info {
+    color: #3561e9;
+    background: rgb(53 97 233 / 8%);
+    border: 1px solid rgb(53 97 233 / 8%);
+  }
+
+  &.is-link {
+    height: auto;
+    line-height: 1;
+    color: #5f91f9;
+    background-color: transparent;
+    border: none;
+  }
+
+  &.is-plain.el-button--primary {
+    color: #356ff3;
+    background-color: transparent;
+    border-color: #356ff3;
+
+    &:hover {
+      color: #fff;
+      background-color: #356ff3;
+    }
+  }
+}
+
+.zxn-table {
+  .el-table__header {
+    .el-table__cell {
+      padding: 15px 0;
+      background-color: #eff4fe !important;
+
+      > div {
+        font-family: SourceHanSansSC-Medium, SourceHanSansSC, sans-serif;
+        font-size: 14px;
+        font-weight: 500;
+        color: #656565;
+      }
+    }
+  }
+
+  .el-table__body {
+    .el-table__row {
+      .el-table__cell {
+        padding: 15px 0;
+
+        .cell {
+          font-family: SourceHanSansSC-Medium, SourceHanSansSC, sans-serif;
+          font-size: 14px;
+          font-weight: 500;
+          color: #333;
+        }
+      }
+    }
+  }
+}
+
+.el-dropdown-menu {
+  padding: 0 !important;
+}
+
+.zxn-dialog {
+  .el-dialog__header {
+    padding: 38px 0 0 var(--el-dialog-padding-primary);
+
+    .el-dialog__title {
+      font-family: SourceHanSansSC-Medium, SourceHanSansSC, sans-serif;
+      font-size: 20px;
+      font-weight: 500;
+      color: #333;
+    }
+
+    .el-dialog__headerbtn {
+      top: 20px;
+
+      .el-dialog__close {
+        font-size: 20px;
+        font-weight: bold;
+        color: #333;
+      }
+    }
+  }
+  .el-dialog__body {
+    padding: var(--el-dialog-padding-primary);
+  }
+
+  .el-input-group__append,
+  .el-input-group__prepend {
+    padding: 0 10px;
+  }
+}
+
+.last-cascader {
+  .el-cascader-node {
+    &:has(.arrow-right) {
+      .el-checkbox {
+        display: none;
+      }
+    }
+  }
+}
+
+.zxn-drawer {
+  .el-drawer__footer {
+    box-shadow: #00000030 0px -2px 6px 0px;
+  }
+}
+.scrollbar-wrapper {
+  overflow-x: hidden;
+}

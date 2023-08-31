@@ -1,0 +1,25 @@
+// 全局SCSS变量
+
+//background: #356FF3;
+:root {
+  --baseColor: #356ff3;
+  --menuBg: #fff;
+  --menuText: #474747;
+  --menuHover: rgb(53 111 243 / 16%);
+  --subMenuBg: #fff;
+  --subMenuHover: rgb(53 111 243 / 16%);
+  --el-color-primary: #366ff3;
+  --el-color-primary-light-9: #eff4fe !important;
+}
+
+$baseColor: var(--baseColor);
+$menuBg: var(--menuBg);
+$menuText: var(--menuText);
+$menuActiveText: var(--baseColor);
+$menuHover: var(--menuHover);
+
+$subMenuBg: var(--subMenuBg);
+$subMenuActiveText: var(--baseColor);
+$subMenuHover: var(--subMenuHover);
+
+$sideBarWidth: 160px;

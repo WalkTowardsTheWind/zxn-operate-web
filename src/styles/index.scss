@@ -1,0 +1,99 @@
+@import "./sidebar";
+@import "./reset";
+@import "./dark";
+@import "./element";
+
+.app-container {
+  padding: 20px;
+
+  .search {
+    padding: 18px 0 0 10px;
+    margin-bottom: 10px;
+    background-color: var(--el-bg-color-overlay);
+    border: 1px solid var(--el-border-color-light);
+    border-radius: 4px;
+    box-shadow: var(--el-box-shadow-light);
+  }
+
+  &-block {
+    background-color: var(--el-bg-color-overlay);
+    border: 1px solid var(--el-border-color-light);
+    border-radius: 4px;
+    box-shadow: var(--el-box-shadow-light);
+  }
+}
+
+.zxn-table-label {
+  display: inline-block;
+  height: 24px;
+  padding: 0 8px;
+  font-family: SourceHanSansSC-Medium, SourceHanSansSC, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 24px;
+  border-radius: 12px;
+
+  &.blue {
+    color: #356ff3;
+    background: #dfe8fd;
+  }
+
+  &.red {
+    color: #f35135;
+    background: #fde3df;
+  }
+
+  &.skyBlue {
+    color: #35c5f3;
+    background: #dff6fd;
+  }
+
+  &.green {
+    color: #19b56b;
+    background: #daf3e7;
+  }
+
+  &.grey {
+    color: #333;
+    background: #dedede;
+  }
+}
+
+// 表单详情样式
+.zxn-view-form {
+  .el-form-item {
+    .el-form-item__label {
+      font-family: SourceHanSansSC-Medium, SourceHanSansSC, sans-serif;
+      font-size: 14px;
+      font-weight: 500;
+      color: #656565;
+    }
+
+    .el-form-item__content {
+      font-family: SourceHanSansSC-Medium, SourceHanSansSC, sans-serif;
+      font-size: 14px;
+      font-weight: 500;
+      color: #333;
+    }
+  }
+}
+
+.yuan {
+  margin-right: 5px;
+  font-size: 18px;
+}
+
+.text-ellipsis {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.text-ellipsis-3 {
+  overflow: hidden;
+  white-space: normal;
+  text-overflow: ellipsis;
+  word-wrap: break-word;
+  -webkit-line-clamp: 3;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
